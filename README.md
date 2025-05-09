@@ -4,12 +4,15 @@ This repository provides the custom CSS files, community plugin list, and a test
 
 ## Installation
 
-> [!warning] work in progress
+> [!warning]
+> work in progress
 
 ## Configuration
 
-> [!warning] work in progress
+> [!warning]
+> work in progress
 
 ## Contributing
 
-> [!warning] work in progress
+> [!warning]
+> work in progress
