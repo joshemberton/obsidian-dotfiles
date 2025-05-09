@@ -1,0 +1,55 @@
+a.tag {
+    padding: 4px 6px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+
+    &[href="#priority/low"], &[href="#priority/normal"], &[href="#priority/high"], &[href="#priority/urgent"] {
+        text-indent: -9999px;
+
+        &::after {
+            text-indent: -4px;
+        }
+    }
+}
+
+.theme-light {}
+
+.theme-dark {
+    a.tag {
+        &[href="#priority/low"] {
+            color: var(--ctp-mocha-mantle);
+            background: var(--ctp-mocha-blue);
+
+            &::after {
+                content: "priority/low";
+            }
+        }
+
+        &[href="#priority/normal"] {
+            color: var(--ctp-mocha-mantle);
+            background: var(--ctp-mocha-green);
+
+            &::after {
+                content: "priority/normal";
+            }
+        }
+
+        &[href="#priority/high"] {
+            color: var(--ctp-mocha-mantle);
+            background: var(--ctp-mocha-peach);
+
+            &::after {
+                content: "priority/high";
+            }
+        }
+
+        &[href="#priority/urgent"] {
+            color: var(--ctp-mocha-mantle);
+            background: var(--ctp-mocha-red);
+
+            &::after {
+                content: "priority/urgent";
+            }
+        }
+    }
+}
