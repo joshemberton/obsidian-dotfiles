@@ -178,6 +178,11 @@
 		border: 2px dashed rgba(var(--ctp-latte-peach-rgb), 0.5);
 	}
 
+	.callout[data-callout="error"] {
+		--callout-color: var(--ctp-latte-red-rgb);
+		border: 2px dashed rgba(var(--ctp-latte-red-rgb), 0.5);
+	}
+
 	.callout[data-callout="inline:"] {
 		--callout-color: var(--ctp-latte-blue-rgb);
 	}
@@ -329,6 +334,11 @@
 	.callout[data-callout="warning"] {
 		--callout-color: var(--ctp-mocha-peach-rgb);
 		border: 2px dashed rgba(var(--ctp-mocha-peach-rgb), 0.5);
+	}
+
+	.callout[data-callout="error"] {
+		--callout-color: var(--ctp-mocha-red-rgb);
+		border: 2px dashed rgba(var(--ctp-mocha-red-rgb), 0.5);
 	}
 
 	.callout[data-callout="inline:"] {

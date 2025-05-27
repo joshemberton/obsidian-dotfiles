@@ -20,7 +20,7 @@ body {
     /* background-position-y: 4px; */
     cursor: var(--cursor-link);
     filter: var(--link-external-filter);
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
 .external-link:hover {

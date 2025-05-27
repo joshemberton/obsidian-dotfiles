@@ -443,3 +443,18 @@ Water is $\large H_2O$
 My equation is $\large X^2 = 5 + 3$
 
 This is a custom syntax for a combined super and subscript. For example $\large V_{\small RMS}^2$ or $\large V^2_{\small RMS}$
+
+***
+
+```math
+# Calculations
+fun = $5
+sun = $10
+total = fun + sun # its the experience that matters
+
+$40/hr * 5days
+
+# Units Conversion
+12 inches to mm
+500lbs to kg
+```
